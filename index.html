@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Инабат | Cherry Grove Portfolio</title>
+    <meta
+      name="description"
+      content="Креативное портфолио Инабат для конкурса CAP Education в стиле Minecraft Cherry Grove Biome."
+    />
+    <link rel="icon" href="assets/images/cherry-grove-scene.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sky-pixels" aria-hidden="true"></div>
+    <div class="petal-field" aria-hidden="true" id="petalField"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand__block"></span>
+        <span>INABAT.EXE</span>
+      </a>
+      <nav class="main-nav" aria-label="Навигация по сайту">
+        <a href="#about">Обо мне</a>
+        <a href="#facts">Факты</a>
+        <a href="#works">Работы</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero__content">
+          <p class="eyebrow">CAP Education · конкурс «Обо мне»</p>
+          <h1>Инабат</h1>
+          <p class="hero__lead">
+            Python Junior-разработчик, которая превращает первые знания в сайты,
+            игры и маленькие цифровые миры.
+          </p>
+          <div class="hero__badges" aria-label="Ключевые факты">
+            <span>Python Junior</span>
+            <span>Roblox Creator</span>
+            <span>Web старт</span>
+          </div>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#about">Начать квест</a>
+            <a class="button button--ghost" href="#music">Открыть винилы</a>
+          </div>
+        </div>
+
+        <figure class="hero__scene" aria-label="Minecraft Cherry Grove Biome">
+          <img
+            src="assets/images/cherry-grove-scene.svg"
+            alt="Пиксельный Cherry Grove Biome с сакурой, блоками и героиней за ноутбуком"
+          />
+          <figcaption>Cherry Grove Biome · Portfolio World</figcaption>
+        </figure>
+
+        <div class="floating-card floating-card--book" data-reveal>
+          <span>HP</span>
+          <strong>книги</strong>
+        </div>
+        <div class="floating-card floating-card--maze" data-reveal>
+          <span>MAZE</span>
+          <strong>лабиринт</strong>
+        </div>
+        <div class="floating-card floating-card--dance" data-reveal>
+          <span>MOVE</span>
+          <strong>танцы</strong>
+        </div>
+      </section>
+
+      <section class="about section-band" id="about">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">8 блоков портфолио</p>
+          <h2>Мой личный квест</h2>
+          <p>
+            Это история о том, как я пришла в программирование, чему учусь
+            сейчас и какой проект хочу показать на конкурсе.
+          </p>
+        </div>
+
+        <div class="quest-grid">
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">01</span>
+            <span class="quest-card__icon">I</span>
+            <h3>Кто я</h3>
+            <p>
+              Меня зовут Инабат. Я начинающий Python Junior-разработчик, мне
+              нравится создавать необычные проекты и пробовать себя в IT.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">02</span>
+            <span class="quest-card__icon">+</span>
+            <h3>Моя цель</h3>
+            <p>
+              Я хочу стать чем-то большим, чем просто ученица курса: расти как
+              разработчик, делать игры, сайты и проекты, которыми можно
+              гордиться.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">03</span>
+            <span class="quest-card__icon">A</span>
+            <h3>Как я попала в CAP Edu</h3>
+            <p>
+              Я узнала о CAP Edu на презентации в моём родном городе Атырау.
+              Эта встреча стала точкой старта моего пути в программировании.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">04</span>
+            <span class="quest-card__icon">D</span>
+            <h3>Мой ментор</h3>
+            <p>
+              Мой ментор — Диана. Она преподаёт веб-разработку и помогает мне
+              понимать, как создавать красивые и рабочие сайты.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">05</span>
+            <span class="quest-card__icon">B</span>
+            <h3>Путь А → Б</h3>
+            <p>
+              Сначала я почти ничего не знала о Python, а сейчас создаю свой
+              первый сайт и параллельно работаю над игрой на платформе Roblox.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">06</span>
+            <span class="quest-card__icon">R</span>
+            <h3>Хобби</h3>
+            <p>
+              Я люблю танцы и чтение. Особенно меня вдохновляют Harry Potter и
+              Maze Runner: в них много магии, силы и движения вперёд.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">07</span>
+            <span class="quest-card__icon">★</span>
+            <h3>Лучшие работы</h3>
+            <p>
+              Одна из моих лучших работ — Roblox-игра, которую я создала вместе
+              с сестрой. Это был мой первый большой творческий проект.
+            </p>
+          </article>
+
+          <article class="quest-card" data-reveal>
+            <span class="quest-card__number">08</span>
+            <span class="quest-card__icon">G</span>
+            <h3>GitHub</h3>
+            <p>
+              В финале здесь будет ссылка на репозиторий, где хранится весь
+              проект: код, стили, скрипты и ассеты сайта.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="timeline section-band" aria-labelledby="timelineTitle">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">От нуля к первому миру</p>
+          <h2 id="timelineTitle">Путь Инабат</h2>
+        </div>
+        <div class="timeline-track">
+          <article class="timeline-step" data-reveal>
+            <span>Spawn point</span>
+            <h3>Я только начинаю</h3>
+            <p>Первые уроки, первые ошибки и первое чувство: «я правда могу».</p>
+          </article>
+          <article class="timeline-step" data-reveal>
+            <span>Level up</span>
+            <h3>Python становится понятнее</h3>
+            <p>Код уже не выглядит случайными символами, а превращается в идеи.</p>
+          </article>
+          <article class="timeline-step" data-reveal>
+            <span>Creative mode</span>
+            <h3>Сайт + Roblox</h3>
+            <p>
+              Я делаю портфолио и параллельно создаю игру, потому что хочу
+              учиться через настоящие проекты.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="facts-zone section-band" id="facts">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Факты обо мне</p>
+          <h2>Мои любимые фильмы и музыка</h2>
+          <p>
+            Здесь я собрала то, что меня вдохновляет: истории, атмосфера,
+            музыка и настроение, которое хочется переносить в проекты.
+          </p>
+        </div>
+
+        <div class="fact-block" data-reveal>
+          <div class="fact-block__intro">
+            <p class="eyebrow">Cinema shelf</p>
+            <h3>Мои любимые фильмы и сериалы</h3>
+            <p>
+              Мне нравятся истории с сильной атмосферой, эмоциями, дружбой и
+              приключениями.
+            </p>
+          </div>
+
+          <div class="poster-grid" aria-label="Мои любимые фильмы">
+            <article class="poster-card">
+              <img
+                src="assets/images/films/500-days-of-summer.jpg"
+                alt="Постер 500 Days of Summer"
+              />
+              <h4>500 Days of Summer</h4>
+            </article>
+            <article class="poster-card">
+              <img
+                src="assets/images/films/anne-with-an-e.jpg"
+                alt="Постер Anne with an E"
+              />
+              <h4>Anne with an E</h4>
+            </article>
+            <article class="poster-card">
+              <img
+                src="assets/images/films/stranger-things.jpg"
+                alt="Постер Stranger Things"
+              />
+              <h4>Stranger Things</h4>
+            </article>
+            <article class="poster-card">
+              <img
+                src="assets/images/films/maze-runner.jpg"
+                alt="Постер Maze Runner"
+              />
+              <h4>Maze Runner</h4>
+            </article>
+            <article class="poster-card">
+              <img
+                src="assets/images/films/movie-tyler-dylan.jpg"
+                alt="Постер любимого фильма"
+              />
+              <h4>Movie night</h4>
+            </article>
+          </div>
+        </div>
+
+        <div class="fact-block fact-block--music" data-reveal>
+          <div class="fact-block__intro">
+            <p class="eyebrow">Playlist</p>
+            <h3>Моя любимая музыка</h3>
+            <p>
+              Эти обложки создают настроение для танцев, чтения и творческих
+              вечеров с кодом.
+            </p>
+          </div>
+
+          <div class="poster-grid poster-grid--music" aria-label="Моя любимая музыка">
+            <article class="poster-card music-card">
+              <img
+                src="assets/images/music/lana-del-rey-born-to-die.jpg"
+                alt="Обложка Lana Del Rey - Born To Die"
+              />
+              <h4>Lana Del Rey</h4>
+            </article>
+            <article class="poster-card music-card">
+              <img
+                src="assets/images/music/arctic-monkeys-am.jpg"
+                alt="Обложка Arctic Monkeys AM"
+              />
+              <h4>Arctic Monkeys</h4>
+            </article>
+            <article class="poster-card music-card">
+              <img
+                src="assets/images/music/tyler-flower-boy.jpg"
+                alt="Обложка Tyler, The Creator"
+              />
+              <h4>Tyler, The Creator</h4>
+            </article>
+            <article class="poster-card music-card">
+              <img
+                src="assets/images/music/olivia-rodrigo.jpg"
+                alt="Обложка Olivia Rodrigo"
+              />
+              <h4>Olivia Rodrigo</h4>
+            </article>
+            <article class="poster-card music-card">
+              <img
+                src="assets/images/music/favorite-star.jpg"
+                alt="Обложка любимой музыки"
+              />
+              <h4>Favorite mood</h4>
+            </article>
+          </div>
+        </div>
+
+        <div class="favorite-player" data-reveal>
+          <div>
+            <p class="eyebrow">Вот послушайте один из них</p>
+            <h2>See You Again by Tyler, The Creator</h2>
+            <p class="player-status" id="playerStatus">
+              Нажми Play, чтобы включить трек. Stop полностью остановит музыку.
+            </p>
+          </div>
+          <div class="player-controls">
+            <button
+              class="play-button"
+              type="button"
+              id="playFavorite"
+              aria-label="Включить музыку"
+              aria-pressed="false"
+            >
+              <span class="play-icon"></span>
+            </button>
+            <button
+              class="stop-button"
+              type="button"
+              id="stopFavorite"
+              aria-label="Остановить музыку"
+            >
+              <span></span>
+            </button>
+          </div>
+          <div class="equalizer" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <audio
+            id="favoriteAudio"
+            preload="none"
+            data-src="assets/audio/see-you-again.mp3"
+          ></audio>
+        </div>
+      </section>
+
+      <section class="works section-band" id="works">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Лучшие работы</p>
+          <h2>Что уже есть в моей коллекции</h2>
+        </div>
+
+        <div class="work-board">
+          <article class="work-card" data-reveal>
+            <span class="work-card__tag">Roblox</span>
+            <h3>Игра, созданная вместе с сестрой</h3>
+            <p>
+              Мой первый большой творческий проект. В нём я попробовала думать
+              как создатель: не только «как сделать», но и «как игрок будет это
+              чувствовать».
+            </p>
+          </article>
+          <article class="work-card" data-reveal>
+            <span class="work-card__tag">Portfolio</span>
+            <h3>Этот сайт</h3>
+            <p>
+              Мой сайт для конкурса CAP Education: история обо мне, мой путь,
+              музыка, хобби, анимации и интерактивный Cherry Grove-мир.
+            </p>
+          </article>
+          <article class="work-card" data-reveal>
+            <span class="work-card__tag">Next level</span>
+            <h3>Следующая цель</h3>
+            <p>
+              Добавить больше проектов, развивать Python-навыки и создать
+              портфолио, которое показывает мой настоящий рост.
+            </p>
+          </article>
+        </div>
+
+        <div class="github-panel" data-reveal>
+          <div>
+            <p class="eyebrow">GitHub</p>
+            <h2>Код проекта будет жить здесь</h2>
+            <p>
+              Репозиторий можно добавить перед сдачей конкурса, когда сайт будет
+              загружен на GitHub.
+            </p>
+          </div>
+          <a class="button button--primary" href="https://github.com/" target="_blank" rel="noreferrer">
+            Открыть GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Инабат · CAP Education Portfolio · <span id="year"></span></p>
+      <a href="#top">Наверх</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

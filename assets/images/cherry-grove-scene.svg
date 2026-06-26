@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Cherry Grove portfolio scene</title>
+  <desc id="desc">Pixel art scene with cherry trees, blocks, vinyl records and a young developer at a laptop.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b7ecff"/>
+      <stop offset="0.62" stop-color="#ffe3ef"/>
+      <stop offset="1" stop-color="#fff9fb"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#ffffff" stroke-opacity=".38" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="620" fill="url(#sky)"/>
+  <rect width="960" height="620" fill="url(#grid)"/>
+
+  <g opacity=".85">
+    <rect x="66" y="80" width="62" height="34" fill="#ffffff"/>
+    <rect x="128" y="112" width="70" height="34" fill="#ffffff"/>
+    <rect x="684" y="66" width="86" height="34" fill="#ffffff"/>
+    <rect x="770" y="98" width="54" height="34" fill="#ffffff"/>
+  </g>
+
+  <g id="ground">
+    <rect x="0" y="468" width="960" height="152" fill="#6ca84f"/>
+    <rect x="0" y="500" width="960" height="120" fill="#8a633f"/>
+    <rect x="0" y="468" width="960" height="34" fill="#9ed46e"/>
+    <g>
+      <rect x="0" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="128" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="256" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="384" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="512" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="640" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="768" y="468" width="64" height="34" fill="#6ca84f"/>
+      <rect x="896" y="468" width="64" height="34" fill="#6ca84f"/>
+    </g>
+    <g fill="#6f4c34">
+      <rect x="42" y="532" width="72" height="42"/>
+      <rect x="118" y="574" width="72" height="42"/>
+      <rect x="436" y="542" width="72" height="42"/>
+      <rect x="688" y="518" width="72" height="42"/>
+      <rect x="792" y="574" width="72" height="42"/>
+    </g>
+  </g>
+
+  <g id="trees">
+    <g transform="translate(64 230)">
+      <rect x="82" y="142" width="44" height="122" fill="#9b6342"/>
+      <rect x="62" y="142" width="84" height="34" fill="#72452f"/>
+      <rect x="36" y="80" width="132" height="82" fill="#ff9cc8"/>
+      <rect x="0" y="122" width="112" height="74" fill="#ffd5e7"/>
+      <rect x="108" y="118" width="92" height="78" fill="#f57eb3"/>
+      <rect x="54" y="42" width="98" height="74" fill="#ffbad7"/>
+      <rect x="96" y="10" width="82" height="62" fill="#ffd8e9"/>
+      <rect x="18" y="96" width="44" height="34" fill="#fff0f6"/>
+      <rect x="146" y="146" width="38" height="28" fill="#ffd8e9"/>
+    </g>
+
+    <g transform="translate(708 206)">
+      <rect x="70" y="160" width="44" height="124" fill="#9b6342"/>
+      <rect x="52" y="160" width="80" height="34" fill="#72452f"/>
+      <rect x="16" y="86" width="132" height="82" fill="#ff9cc8"/>
+      <rect x="84" y="46" width="106" height="72" fill="#ffd5e7"/>
+      <rect x="120" y="112" width="92" height="78" fill="#f57eb3"/>
+      <rect x="44" y="20" width="90" height="62" fill="#ffbad7"/>
+      <rect x="0" y="142" width="64" height="48" fill="#ffd8e9"/>
+    </g>
+  </g>
+
+  <g id="character" transform="translate(390 270)">
+    <rect x="32" y="52" width="120" height="150" rx="0" fill="#2b3b4a"/>
+    <rect x="50" y="0" width="84" height="76" fill="#f2c7a7"/>
+    <rect x="30" y="0" width="124" height="30" fill="#3b2621"/>
+    <rect x="50" y="44" width="20" height="10" fill="#172116"/>
+    <rect x="114" y="44" width="20" height="10" fill="#172116"/>
+    <rect x="76" y="62" width="34" height="8" fill="#d64c87"/>
+    <rect x="12" y="92" width="38" height="86" fill="#f2c7a7"/>
+    <rect x="136" y="92" width="38" height="86" fill="#f2c7a7"/>
+    <rect x="20" y="178" width="144" height="42" fill="#1e2a35"/>
+    <rect x="-8" y="206" width="76" height="24" fill="#172116"/>
+    <rect x="118" y="206" width="76" height="24" fill="#172116"/>
+    <rect x="-34" y="124" width="254" height="86" fill="#d9eef2" stroke="#172116" stroke-width="8"/>
+    <rect x="54" y="150" width="70" height="18" fill="#55bdd0"/>
+  </g>
+
+  <g id="blocks">
+    <g transform="translate(594 364)">
+      <rect x="0" y="0" width="82" height="82" fill="#9ed46e" stroke="#172116" stroke-width="7"/>
+      <rect x="0" y="34" width="82" height="48" fill="#7b5a3e" stroke="#172116" stroke-width="7"/>
+      <rect x="42" y="34" width="40" height="48" fill="#6a4b34"/>
+    </g>
+    <g transform="translate(248 398)">
+      <rect x="0" y="0" width="72" height="72" fill="#91a0a0" stroke="#172116" stroke-width="7"/>
+      <rect x="18" y="18" width="18" height="18" fill="#c9d1d1"/>
+      <rect x="48" y="46" width="18" height="18" fill="#6e7f7f"/>
+    </g>
+  </g>
+
+  <g id="music" transform="translate(598 250)">
+    <circle cx="62" cy="62" r="56" fill="#161616" stroke="#172116" stroke-width="7"/>
+    <circle cx="62" cy="62" r="34" fill="none" stroke="#2b2b2b" stroke-width="6"/>
+    <circle cx="62" cy="62" r="16" fill="#f2c14e"/>
+    <circle cx="62" cy="62" r="5" fill="#ffffff"/>
+    <rect x="112" y="14" width="70" height="96" fill="#65b77b" stroke="#172116" stroke-width="7"/>
+    <rect x="128" y="32" width="38" height="16" fill="#ffef7d"/>
+    <rect x="128" y="66" width="38" height="18" fill="#ff8fbd"/>
+  </g>
+
+  <g id="maze" transform="translate(52 390)">
+    <rect x="0" y="0" width="142" height="80" fill="#d9d9d9" stroke="#172116" stroke-width="7"/>
+    <rect x="18" y="18" width="28" height="18" fill="#172116"/>
+    <rect x="64" y="18" width="18" height="44" fill="#172116"/>
+    <rect x="100" y="44" width="24" height="18" fill="#172116"/>
+  </g>
+
+  <g id="sparkles" fill="#ffffff" stroke="#172116" stroke-width="4">
+    <path d="M286 126l12 26 26 12-26 12-12 26-12-26-26-12 26-12z"/>
+    <path d="M834 232l10 22 22 10-22 10-10 22-10-22-22-10 22-10z"/>
+    <path d="M520 122l8 18 18 8-18 8-8 18-8-18-18-8 18-8z"/>
+  </g>
+</svg>
